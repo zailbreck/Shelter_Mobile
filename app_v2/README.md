@@ -29,7 +29,7 @@ cd app_v2
 ## Struktur package
 
 ```
-sidev.app.shelter/
+id.my.shelter.app/
 ├── core/        # DI (Hilt), Firebase providers, OkHttp+cache, Room database, Resource/SyncState, tema Compose
 ├── domain/      # model (murni Kotlin) + repository interfaces — tidak tahu soal Firebase/Room/GitHub
 ├── data/        # implementasi repository per fitur (auth, disaster, weather, sync)
